@@ -619,7 +619,7 @@
     },
     "requiredStatusChecks": {
       "description": "List of status checks that must pass before automerging. Set to null to enable automerging without tests.",
-      "type": "array",
+      "type": ["array", "null"],
       "items": {
         "type": "string"
       }
